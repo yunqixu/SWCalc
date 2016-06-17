@@ -1,0 +1,14 @@
+五一 m word_-2 word_-1 想去 西双版纳 pos_-2 pos_-1 v ns 0.0 false
+想去 v word_-2 五一 西双版纳 不算 pos_-2 m ns v 0.08333333333333333 false
+西双版纳 ns 五一 想去 不算 路程 m v v n 0.16666666666666666 false
+不算 v 想去 西双版纳 路程 玩儿 v ns n v 0.25 false
+路程 n 西双版纳 不算 玩儿 四天 ns v v mq 0.3333333333333333 false
+玩儿 v 不算 路程 四天 ， v n mq w 0.4166666666666667 false
+四天 mq 路程 玩儿 ， 求 n v w v 0.5 false
+， w 玩儿 四天 求 推荐 v mq v v 0.5833333333333334 false
+求 v 四天 ， 推荐 路线 mq w v n 0.6666666666666666 false
+推荐 v ， 求 路线 及 w v n cc 0.75 false
+路线 n 求 推荐 及 住宿 v v cc v 0.8333333333333334 false
+及 cc 推荐 路线 住宿 word_+2 v n v pos_+2 0.9166666666666666 false
+住宿 v 路线 及 word_+1 word_+2 n cc pos_+1 pos_+2 1.0 false
+
